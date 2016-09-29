@@ -290,7 +290,6 @@ typedef void(^doneBlock)(NSDate *);
             title = @"";
             break;
     }
-    
     customLabel.text = title;
     customLabel.textColor = [UIColor blackColor];
     return customLabel;
